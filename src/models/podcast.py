@@ -11,3 +11,4 @@ class Podcast(Base):
     imagem_url = Column(String)
     categorias = Column(String)
     pais = Column(String)
+    total_episodes = Column(String)

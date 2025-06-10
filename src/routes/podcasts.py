@@ -15,6 +15,8 @@ def get_db():
 
 def inserir_podcasts(db: Session, lista_podcasts: list, pais: str):
     for show in lista_podcasts:
+        total_episodes = show.get('total_episodes', 0)  # Pega total_episodes, ou 0 se não existir
+
         podcast_existente = db.query(Podcast).filter(Podcast.id == show['id']).first()
         if podcast_existente:
             podcast_existente.titulo = show['name']
@@ -24,6 +26,7 @@ def inserir_podcasts(db: Session, lista_podcasts: list, pais: str):
             podcast_existente.imagem_url = show['images'][0]['url'] if show['images'] else None
             podcast_existente.categorias = "negócios"
             podcast_existente.pais = pais
+            podcast_existente.total_episodes = total_episodes
         else:
             novo_podcast = Podcast(
                 id=show['id'],
@@ -33,7 +36,8 @@ def inserir_podcasts(db: Session, lista_podcasts: list, pais: str):
                 url=show['external_urls']['spotify'],
                 imagem_url=show['images'][0]['url'] if show['images'] else None,
                 categorias="negócios",
-                pais=pais
+                pais=pais,
+                total_episodes=total_episodes
             )
             db.add(novo_podcast)
     db.commit()
@@ -71,7 +75,8 @@ def obter_conteudo_lbs(db: Session = Depends(get_db)):
                 "url": p.url,
                 "imagem_url": p.imagem_url,
                 "categorias": [p.categorias],
-                "pais": p.pais
+                "pais": p.pais,
+                "total_episodes": p.total_episodes
             } for p in podcasts
         ],
         "livros": [],
