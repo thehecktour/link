@@ -76,7 +76,8 @@ def obter_conteudo_lbs(db: Session = Depends(get_db)):
                 "imagem_url": p.imagem_url,
                 "categorias": [p.categorias],
                 "pais": p.pais,
-                "total_episodes": p.total_episodes
+                "total_episodes": p.total_episodes,
+                "embed_url": f"https://open.spotify.com/embed/show/{p.id}" 
             } for p in podcasts
         ],
         "livros": [],
