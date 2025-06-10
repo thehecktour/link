@@ -15,7 +15,7 @@ def get_db():
 
 def inserir_podcasts(db: Session, lista_podcasts: list, pais: str):
     for show in lista_podcasts:
-        total_episodes = show.get('total_episodes', 0)  # Pega total_episodes, ou 0 se não existir
+        total_episodes = show.get('total_episodes', 0)
 
         podcast_existente = db.query(Podcast).filter(Podcast.id == show['id']).first()
         if podcast_existente:
