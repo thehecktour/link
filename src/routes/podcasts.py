@@ -15,6 +15,29 @@ def get_db():
     finally:
         db.close()
 
+
+def obter_livros_pdf():
+    livros = []
+    # Caminho correto baseado no local do arquivo atual
+    pasta_livros = os.path.join(os.path.dirname(__file__), "..", "books")
+    pasta_livros = os.path.abspath(pasta_livros)
+
+    if not os.path.exists(pasta_livros):
+        print("[DEBUG] Pasta não encontrada:", pasta_livros)
+        return livros
+
+    for nome_arquivo in os.listdir(pasta_livros):
+        if nome_arquivo.endswith(".pdf"):
+            print("[DEBUG] PDF encontrado:", nome_arquivo)
+            livros.append({
+                "nome": nome_arquivo,
+                "tipo": "livro",
+                "formato": "pdf",
+                "url": f"/static/books/{nome_arquivo}"
+            })
+
+    return livros
+
 def inserir_videos_youtube(palavra_chave="negócios", max_results=10):
     api_key = os.getenv("YOUTUBE_API_KEY")
     if not api_key:
@@ -29,7 +52,7 @@ def inserir_videos_youtube(palavra_chave="negócios", max_results=10):
             "part": "snippet",
             "q": palavra_chave,
             "type": "video",
-            "videoCategoryId": "27",  # Educação
+            "videoCategoryId": "27",
             "regionCode": pais,
             "maxResults": max_results,
             "key": api_key
@@ -37,7 +60,7 @@ def inserir_videos_youtube(palavra_chave="negócios", max_results=10):
 
         response = requests.get(url, params=params)
         if response.status_code != 200:
-            continue  # Pula se houve erro
+            continue
 
         data = response.json()
         for item in data.get("items", []):
@@ -111,6 +134,8 @@ def atualizar_podcasts(db: Session = Depends(get_db)):
 def obter_conteudo_lbs(db: Session = Depends(get_db)):
     podcasts = db.query(Podcast).all()
     aulas = inserir_videos_youtube()
+    livros = obter_livros_pdf()
+
     conteudo = {
         "podcasts": [
             {
@@ -127,7 +152,7 @@ def obter_conteudo_lbs(db: Session = Depends(get_db)):
                 "embed_url": f"https://open.spotify.com/embed/show/{p.id}" 
             } for p in podcasts
         ],
-        "livros": [],
+        "livros": livros,
         "aulas": aulas
     }
     return {
