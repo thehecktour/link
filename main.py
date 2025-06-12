@@ -3,7 +3,7 @@ from src.core.database import Base, engine
 from src.routes import podcasts
 
 app = FastAPI(
-    title="API de Podcasts - LBS",
+    title="API da Biblioteca - LBS",
     description="Serviço para buscar e armazenar podcasts de negócios do Spotify",
     version="1.0.0"
 )

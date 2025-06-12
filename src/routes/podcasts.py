@@ -1,4 +1,6 @@
+import os
 from fastapi import APIRouter, Depends, HTTPException
+import requests
 from sqlalchemy.orm import Session
 from src.core.database import SessionLocal
 from src.models.podcast import Podcast
@@ -12,6 +14,50 @@ def get_db():
         yield db
     finally:
         db.close()
+
+def inserir_videos_youtube(palavra_chave="negócios", max_results=10):
+    api_key = os.getenv("YOUTUBE_API_KEY")
+    if not api_key:
+        raise HTTPException(status_code=500, detail="YouTube API Key não encontrada.")
+
+    paises = ['BR', 'US']
+    aulas = []
+
+    for pais in paises:
+        url = "https://www.googleapis.com/youtube/v3/search"
+        params = {
+            "part": "snippet",
+            "q": palavra_chave,
+            "type": "video",
+            "videoCategoryId": "27",  # Educação
+            "regionCode": pais,
+            "maxResults": max_results,
+            "key": api_key
+        }
+
+        response = requests.get(url, params=params)
+        if response.status_code != 200:
+            continue  # Pula se houve erro
+
+        data = response.json()
+        for item in data.get("items", []):
+            video_id = item["id"]["videoId"]
+            snippet = item["snippet"]
+
+            aulas.append({
+                "id": video_id,
+                "tipo": "aula",
+                "titulo": snippet["title"],
+                "descricao": snippet.get("description", ""),
+                "canal": snippet.get("channelTitle", ""),
+                "imagem_url": snippet["thumbnails"]["high"]["url"],
+                "categorias": ["negócios"],
+                "pais": pais,
+                "embed_url": f"https://www.youtube.com/embed/{video_id}"
+            })
+
+    return aulas
+
 
 def inserir_podcasts(db: Session, lista_podcasts: list, pais: str):
     for show in lista_podcasts:
@@ -64,6 +110,7 @@ def atualizar_podcasts(db: Session = Depends(get_db)):
 @router.get("/conteudo-lbs")
 def obter_conteudo_lbs(db: Session = Depends(get_db)):
     podcasts = db.query(Podcast).all()
+    aulas = inserir_videos_youtube()
     conteudo = {
         "podcasts": [
             {
@@ -81,7 +128,7 @@ def obter_conteudo_lbs(db: Session = Depends(get_db)):
             } for p in podcasts
         ],
         "livros": [],
-        "aulas": []
+        "aulas": aulas
     }
     return {
         "totalItens": len(podcasts),
