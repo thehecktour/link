@@ -1,12 +1,13 @@
 import os
-from fastapi import APIRouter, Depends, HTTPException
+from typing import Literal
+from fastapi import APIRouter, Depends, HTTPException, Query
 import requests
 from sqlalchemy.orm import Session
 from src.core.database import SessionLocal
 from src.models.podcast import Podcast
 from src.services.spotify_service import obter_token_acesso, obter_top_podcasts
 from pathlib import Path
-import json
+import json 
 
 router = APIRouter(prefix="/api/v1", tags=["Podcasts"])
 
@@ -132,22 +133,27 @@ def atualizar_podcasts(db: Session = Depends(get_db)):
     total = len(podcasts_br) + len(podcasts_us)
     return {"mensagem": f"{total} podcasts atualizados e salvos no banco de dados."}
 
+
 @router.get("/conteudo-lbs")
-def obter_conteudo_lbs(db: Session = Depends(get_db)):
+def obter_conteudo_lbs(
+    db: Session = Depends(get_db),
+    tipo: Literal["podcast", "livro", "aula", "biblioteca"] = Query("podcast"),
+    page: int = Query(1, gt=0),
+    limit: int = Query(10, gt=0, le=100)
+):
     podcasts = db.query(Podcast).all()
     aulas = inserir_videos_youtube()
     livros = obter_livros_pdf()
 
     caminho_bibliotecas = Path(__file__).resolve().parent.parent / "utils" / "bibliotecas.json"
-
     try:
         with open(caminho_bibliotecas, encoding="utf-8") as f:
             bibliotecas = json.load(f)
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Erro ao carregar bibliotecas: {str(e)}")
 
-    conteudo = {
-        "podcasts": [
+    conteudo_formatado = {
+        "podcast": [
             {
                 "id": p.id,
                 "tipo": "podcast",
@@ -159,14 +165,26 @@ def obter_conteudo_lbs(db: Session = Depends(get_db)):
                 "categorias": [p.categorias],
                 "pais": p.pais,
                 "total_episodes": p.total_episodes,
-                "embed_url": f"https://open.spotify.com/embed/show/{p.id}" 
+                "embed_url": f"https://open.spotify.com/embed/show/{p.id}"
             } for p in podcasts
         ],
-        "livros": livros,
-        "aulas": aulas,
-        "bibliotecas": bibliotecas
+        "livro": livros,
+        "aula": aulas,
+        "biblioteca": bibliotecas
     }
+
+    todos_itens = conteudo_formatado[tipo]
+    total = len(todos_itens)
+
+    start = (page - 1) * limit
+    end = start + limit
+    itens_paginados = todos_itens[start:end]
+
     return {
-        "totalItens": len(podcasts) + len(aulas) + len(bibliotecas),
-        "conteudo": conteudo
+        "tipo": tipo,
+        "page": page,
+        "limit": limit,
+        "total": total,
+        "totalPages": (total + limit - 1) // limit,
+        "conteudo": itens_paginados
     }
