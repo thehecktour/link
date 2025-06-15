@@ -5,6 +5,8 @@ from sqlalchemy.orm import Session
 from src.core.database import SessionLocal
 from src.models.podcast import Podcast
 from src.services.spotify_service import obter_token_acesso, obter_top_podcasts
+from pathlib import Path
+import json
 
 router = APIRouter(prefix="/api/v1", tags=["Podcasts"])
 
@@ -136,6 +138,14 @@ def obter_conteudo_lbs(db: Session = Depends(get_db)):
     aulas = inserir_videos_youtube()
     livros = obter_livros_pdf()
 
+    caminho_bibliotecas = Path(__file__).resolve().parent.parent / "utils" / "bibliotecas.json"
+
+    try:
+        with open(caminho_bibliotecas, encoding="utf-8") as f:
+            bibliotecas = json.load(f)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Erro ao carregar bibliotecas: {str(e)}")
+
     conteudo = {
         "podcasts": [
             {
@@ -153,9 +163,10 @@ def obter_conteudo_lbs(db: Session = Depends(get_db)):
             } for p in podcasts
         ],
         "livros": livros,
-        "aulas": aulas
+        "aulas": aulas,
+        "bibliotecas": bibliotecas
     }
     return {
-        "totalItens": len(podcasts),
+        "totalItens": len(podcasts) + len(aulas) + len(bibliotecas),
         "conteudo": conteudo
     }
