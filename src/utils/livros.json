@@ -1,0 +1,35 @@
+[
+    {
+        "id": "estrategia-multimarcas-inovacao-revenda-veiculos-novos",
+        "titulo": "A estratégia multimarcas como um fator de inovação em revenda de veículos novos.",
+        "autor": "Carlos Renato Meinert",
+        "ano": "2007",
+        "categorias": ["Administração"],
+        "descricao": "",
+        "paginas": 25,
+        "arquivo": "/static/books/estrategia-multimarcas-inovacao-revenda-veiculos-novos.pdf",
+        "tipo_documento": ""
+    },
+    {
+        "id": "engenharia-gestao-inovacao",
+        "titulo": "Engenharia, Gestão e Inovação – Volume 5.",
+        "autor": "Osvaldo Sena Guimarães",
+        "ano": "2022",
+        "categorias": ["Administração"],
+        "descricao": "",
+        "paginas": 164,
+        "arquivo": "/static/books/engenharia-gestao-inovacao.pdf",
+        "tipo_documento": ""
+    },
+    {
+        "id": "da-organização-vertical-para-a-organização-horizontal-aspectos-da-transição-empresarial-tendo-um-sistema-ERP-como-elemento-facilitador",
+        "titulo": "Da organização vertical para a organização horizontal: aspectos da transição empresarial, tendo um sistema ERP como elemento facilitador",
+        "autor": "Jamir Mendes Monteiro",
+        "ano": "2006",
+        "categorias": ["Administração"],
+        "descricao": "",
+        "paginas": 121,
+        "arquivo": "/static/books/da-organização-vertical-para-a-organização-horizontal-aspectos-da-transição-empresarial-tendo-um-sistema-ERP-como-elemento-facilitador.pdf",
+        "tipo_documento": ""
+    }
+]

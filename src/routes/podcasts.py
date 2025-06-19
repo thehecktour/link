@@ -21,23 +21,20 @@ def get_db():
 
 def obter_livros_pdf():
     livros = []
-    # Caminho correto baseado no local do arquivo atual
-    pasta_livros = os.path.join(os.path.dirname(__file__), "..", "books")
-    pasta_livros = os.path.abspath(pasta_livros)
 
-    if not os.path.exists(pasta_livros):
-        print("[DEBUG] Pasta não encontrada:", pasta_livros)
+    caminho_json = os.path.join(os.path.dirname(__file__), "..", "utils", "livros.json")
+    caminho_json = os.path.abspath(caminho_json)
+
+    if not os.path.exists(caminho_json):
+        print("[DEBUG] Arquivo JSON não encontrado:", caminho_json)
         return livros
 
-    for nome_arquivo in os.listdir(pasta_livros):
-        if nome_arquivo.endswith(".pdf"):
-            print("[DEBUG] PDF encontrado:", nome_arquivo)
-            livros.append({
-                "nome": nome_arquivo,
-                "tipo": "livro",
-                "formato": "pdf",
-                "url": f"/static/books/{nome_arquivo}"
-            })
+    try:
+        with open(caminho_json, "r", encoding="utf-8") as f:
+            livros = json.load(f)
+            print(f"[DEBUG] {len(livros)} livro(s) carregado(s) do JSON.")
+    except Exception as e:
+        print("[ERRO] Falha ao ler o JSON:", e)
 
     return livros
 
