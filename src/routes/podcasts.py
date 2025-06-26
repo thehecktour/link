@@ -8,6 +8,7 @@ from src.models.podcast import Podcast
 from src.services.spotify_service import obter_token_acesso, obter_top_podcasts
 from pathlib import Path
 import json 
+from fastapi.responses import FileResponse
 
 router = APIRouter(prefix="/api/v1", tags=["Podcasts"])
 
@@ -209,3 +210,12 @@ def obter_conteudo_lbs(
         "totalPages": (total + limit - 1) // limit,
         "conteudo": itens_paginados
     }
+
+@router.get("/fonts/{font_name}")
+def get_font(font_name: str):
+    font_path = os.path.join("src", "fonts", font_name)
+    
+    if not os.path.exists(font_path) or not font_name.endswith(".otf"):
+        return {"error": "Arquivo não encontrado ou formato inválido."}
+    
+    return FileResponse(font_path, media_type="font/otf", filename=font_name)
