@@ -18,6 +18,25 @@ def get_db():
     finally:
         db.close()
 
+def obter_podcasts():
+    podcasts = []
+
+    caminho_json = os.path.join(os.path.dirname(__file__), "..", "utils", "podcast.json")
+    caminho_json = os.path.abspath(caminho_json)
+
+    if not os.path.exists(caminho_json):
+        print("[DEBUG] Podcast JSON não encontrado:", caminho_json)
+        return podcasts
+
+    try:
+        with open(caminho_json, "r", encoding="utf-8") as f:
+            podcasts = json.load(f)
+            print(f"[DEBUG] {len(podcasts)} podcast(s) carregado(s) do JSON.")
+    except Exception as e:
+        print("[ERRO] Falha ao ler o JSON:", e)
+
+    return podcasts
+
 
 def obter_livros_pdf():
     livros = []
@@ -138,7 +157,7 @@ def obter_conteudo_lbs(
     page: int = Query(1, gt=0),
     limit: int = Query(10, gt=0, le=100)
 ):
-    podcasts = db.query(Podcast).all()
+    podcasts = obter_podcasts()
     aulas = inserir_videos_youtube()
     livros = obter_livros_pdf()
 
@@ -151,20 +170,20 @@ def obter_conteudo_lbs(
 
     conteudo_formatado = {
         "podcast": [
-            {
-                "id": p.id,
-                "tipo": "podcast",
-                "titulo": p.titulo,
-                "descricao": p.descricao,
-                "publicador": p.publicador,
-                "url": p.url,
-                "imagem_url": p.imagem_url,
-                "categorias": [p.categorias],
-                "pais": p.pais,
-                "total_episodes": p.total_episodes,
-                "embed_url": f"https://open.spotify.com/embed/show/{p.id}"
-            } for p in podcasts
-        ],
+        {
+            "id": p["id"],
+            "tipo": "podcast",
+            "titulo": p["titulo"],
+            "descricao": p.get("descricao", ""),
+            "publicador": p.get("publicador", ""),
+            "url": p.get("url", ""),
+            "imagem_url": p.get("imagem_url", ""),
+            "categorias": p.get("categorias", ["negócios"]),
+            "pais": p.get("pais", "BR"),
+            "total_episodes": p.get("total_episodes", 0),
+            "embed_url": f"https://open.spotify.com/embed/show/{p['id']}"
+        } for p in podcasts
+    ],
         "livro": livros,
         "aula": aulas,
         "biblioteca": bibliotecas
