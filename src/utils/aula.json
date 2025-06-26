@@ -1,0 +1,364 @@
+[
+    {
+        "id": "b5DTzlnHhM0",
+        "tipo": "aula",
+        "titulo": "Using the RAD Easy Bike Hoist",
+        "descricao": "",
+        "canal": "ycombinator",
+        "imagem_url": "https://i.ytimg.com/vi/b5DTzlnHhM0/hqdefault.jpg",
+        "categorias": [
+            "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/b5DTzlnHhM0"
+    },
+    {
+        "id": "cetbqPJhG78",
+        "tipo": "aula",
+        "titulo": "Baby rattlesnake on trail",
+        "descricao": "We found the snake laying across the middle of the trail. Previous hikers had warned us about it so we knew to look for it.",
+        "canal": "ycombinator",
+        "imagem_url": "https://i.ytimg.com/vi/cetbqPJhG78/hqdefault.jpg",
+        "categorias": [
+            "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/cetbqPJhG78"
+    },
+    {
+        "id": "2U7QJskevNs",
+        "tipo": "aula",
+        "titulo": "At the dog park",
+        "descricao": "Seger, wrestling with his friend at the dog park.",
+        "canal": "ycombinator",
+        "imagem_url": "https://i.ytimg.com/vi/2U7QJskevNs/hqdefault.jpg",
+        "categorias": [
+            "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/2U7QJskevNs"
+    },
+    {
+        "id": "IgR1S0MVIsw",
+        "tipo": "aula",
+        "titulo": "Seger is eager to meet daddy after being home alone for 5 hours",
+        "descricao": "",
+        "canal": "ycombinator",
+        "imagem_url": "https://i.ytimg.com/vi/IgR1S0MVIsw/hqdefault.jpg",
+        "categorias": [
+            "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/IgR1S0MVIsw"
+    },
+    {
+        "id": "ejTiEfoPJYQ",
+        "tipo": "aula",
+        "titulo": "Eager Seger",
+        "descricao": "This is how Seger usually greets me after I come home from work.",
+        "canal": "ycombinator",
+        "imagem_url": "https://i.ytimg.com/vi/ejTiEfoPJYQ/hqdefault.jpg",
+        "categorias": [
+            "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/ejTiEfoPJYQ"
+    },
+    {
+        "id": "echURQI0poc",
+        "tipo": "aula",
+        "titulo": "Unsuccessful attempt to bring long stick into the house",
+        "descricao": "",
+        "canal": "ycombinator",
+        "imagem_url": "https://i.ytimg.com/vi/echURQI0poc/hqdefault.jpg",
+        "categorias": [
+            "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/echURQI0poc"
+    },
+    {
+        "id": "ZQGZGRx2pn0",
+        "tipo": "aula",
+        "titulo": "Fetch",
+        "descricao": "Seger learns to fetch.",
+        "canal": "ycombinator",
+        "imagem_url": "https://i.ytimg.com/vi/ZQGZGRx2pn0/hqdefault.jpg",
+        "categorias": [
+            "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/ZQGZGRx2pn0"
+    },
+    {
+        "id": "fpDYSv4A1Zg",
+        "tipo": "aula",
+        "titulo": "The battle of the long sock",
+        "descricao": "",
+        "canal": "ycombinator",
+        "imagem_url": "https://i.ytimg.com/vi/fpDYSv4A1Zg/hqdefault.jpg",
+        "categorias": [
+            "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/fpDYSv4A1Zg"
+    },
+    {
+        "id": "5xAgKRFvFg0",
+        "tipo": "aula",
+        "titulo": "Top AI news: ChatGPT undeletes your chats, Copilot security flaw, Veo 3 TV ad",
+        "descricao": "This week in AI: Veo 3 makes a TV ad, ChatGPT saves your deleted chats, Midjourney gets sued, Google talks AGI, and Copilot ...",
+        "canal": "Data School",
+        "imagem_url": "https://i.ytimg.com/vi/5xAgKRFvFg0/hqdefault.jpg",
+        "categorias": [
+            "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/5xAgKRFvFg0"
+    },
+    {
+        "id": "JF8WjK70AEQ",
+        "tipo": "aula",
+        "titulo": "What is Retrieval Augmented Generation (RAG)?",
+        "descricao": "This is a lesson from my new course, Build AI agents with Python: https://courses.dataschool.io/build-ai-agents-with-python 0:00 ...",
+        "canal": "Data School",
+        "imagem_url": "https://i.ytimg.com/vi/JF8WjK70AEQ/hqdefault.jpg",
+        "categorias": [
+            "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/JF8WjK70AEQ"
+    },
+    {
+        "id": "TDlGKocbHoc",
+        "tipo": "aula",
+        "titulo": "Jupyter &amp; IPython terminology explained",
+        "descricao": "Are you trying to understand the differences between Jupyter Notebook, JupyterLab, IPython, Colab, and other related terms?",
+        "canal": "Data School",
+        "imagem_url": "https://i.ytimg.com/vi/TDlGKocbHoc/hqdefault.jpg",
+        "categorias": [
+            "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/TDlGKocbHoc"
+    },
+    {
+        "id": "rOKXLCCyWn8",
+        "tipo": "aula",
+        "titulo": "How to keep up with AI in 2025",
+        "descricao": "AI is moving incredibly FAST. I'll show you the 7 best sources I follow to keep up with the most important developments in AI.",
+        "canal": "Data School",
+        "imagem_url": "https://i.ytimg.com/vi/rOKXLCCyWn8/hqdefault.jpg",
+        "categorias": [
+            "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/rOKXLCCyWn8"
+    },
+    {
+        "id": "GnN3Lqh3wOU",
+        "tipo": "aula",
+        "titulo": "Build an AI chatbot with Python",
+        "descricao": "Watch the first two lessons of my new course, Build an AI chatbot with Python ($9): ...",
+        "canal": "Data School",
+        "imagem_url": "https://i.ytimg.com/vi/GnN3Lqh3wOU/hqdefault.jpg",
+        "categorias": [
+            "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/GnN3Lqh3wOU"
+    },
+    {
+        "id": "ChGDJda7usk",
+        "tipo": "aula",
+        "titulo": "Guess the MYSTERY course 🎁",
+        "descricao": "Guess the topic of my new course, and on Friday I'll randomly select TWO people who were correct to get a FREE copy of the ...",
+        "canal": "Data School",
+        "imagem_url": "https://i.ytimg.com/vi/ChGDJda7usk/hqdefault.jpg",
+        "categorias": [
+            "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/ChGDJda7usk"
+    },
+    {
+        "id": "mN51Tp02RNk",
+        "tipo": "aula",
+        "titulo": "Course outline: &quot;Master Machine Learning with scikit-learn&quot;",
+        "descricao": "This is the outline of my NEW course, \"Master Machine Learning with scikit-learn.\" You can enroll here: ...",
+        "canal": "Data School",
+        "imagem_url": "https://i.ytimg.com/vi/mN51Tp02RNk/hqdefault.jpg",
+        "categorias": [
+            "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/mN51Tp02RNk"
+    },
+    {
+        "id": "ZYJ7OjNobmA",
+        "tipo": "aula",
+        "titulo": "Course overview: &quot;Master Machine Learning with scikit-learn&quot;",
+        "descricao": "This is the overview of my NEW course, \"Master Machine Learning with scikit-learn.\" You can enroll here: ...",
+        "canal": "Data School",
+        "imagem_url": "https://i.ytimg.com/vi/ZYJ7OjNobmA/hqdefault.jpg",
+        "categorias": [
+            "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/ZYJ7OjNobmA"
+    },
+    {
+        "id": "AZzk8fQVHSU",
+        "tipo": "aula",
+        "titulo": "Introduction to model ensembling",
+        "descricao": "Learn the how & why of \"ensembling\", the surprisingly simple way to make better Machine Learning predictions! P.S. This is a ...",
+        "canal": "Data School",
+        "imagem_url": "https://i.ytimg.com/vi/AZzk8fQVHSU/hqdefault.jpg",
+        "categorias": [
+            "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/AZzk8fQVHSU"
+    },
+    {
+        "id": "47jp10PxzIg",
+        "tipo": "aula",
+        "titulo": "How to save a scikit-learn Pipeline with custom transformers",
+        "descricao": "If you need to save a Pipeline with custom transformers, you'll have to define the functions it depends upon in the new ...",
+        "canal": "Data School",
+        "imagem_url": "https://i.ytimg.com/vi/47jp10PxzIg/hqdefault.jpg",
+        "categorias": [
+            "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/47jp10PxzIg"
+    },
+    {
+        "id": "_uSi7FATpPI", 
+        "tipo": "aula", 
+        "titulo": "CARREIRA PROFISSIONAL | COMO SE TORNAR UM CEO? | O Conselho 13", 
+        "descricao": "Tema do episódio de hoje: carreira profissional", 
+        "canal": "O Conselho | Flávio Augusto", 
+        "imagem_url": "https://i.ytimg.com/vi/_uSi7FATpPI/hqdefault.jpg", 
+        "categorias": ["negócios"], 
+        "pais": "BR", 
+        "embed_url": "https://www.youtube.com/embed/_uSi7FATpPI"
+    },
+    {
+        "id": "lLdWRWiyoCM",
+        "tipo": "aula",
+        "titulo": "INFLUÊNCIA | COMO USAR A AUDIÊNCIA PARA VENDER MILHÕES | O Conselho 15",
+        "descricao": "INFLUÊNCIA | COMO USAR A AUDIÊNCIA PARA VENDER MILHÕES | O Conselho 14",
+        "canal": "O Conselho | Flávio Augusto",
+        "imagem_url": "https://i.ytimg.com/vi/lLdWRWiyoCM/hqdefault.jpg",
+        "categorias": [
+          "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/lLdWRWiyoCM"
+    },
+    {
+        "id": "DxREm3s1scA",
+        "tipo": "aula",
+        "titulo": "Elon Musk: SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI | Lex Fridman Podcast #252",
+        "descricao": "Elon Musk is CEO of SpaceX, Tesla, Neuralink, and The Boring Company",
+        "canal": "Lex Fridman",
+        "imagem_url": "https://i.ytimg.com/vi/DxREm3s1scA/hqdefault.jpg",
+        "categorias": [
+            "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/DxREm3s1scA"
+    },
+    {
+        "id": "ae5MssJ8en4",
+        "tipo": "aula",
+        "titulo": "A Bidding War Breaks Out During Scrub Daddy's Pitch | Shark Tank US | Shark Tank Global",
+        "descricao": "Aaron Krause is seeking $100,000 for 10% stake in Scrub Daddy.",
+        "canal": "Shark Tank Global",
+        "imagem_url": "https://i.ytimg.com/vi/ae5MssJ8en4/hqdefault.jpg",
+        "categorias": [
+          "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/ae5MssJ8en4"
+    },
+    {
+        "id": "y016b7NXlpQ",
+        "tipo": "aula",
+        "titulo": "Orçamento inteligente",
+        "descricao": "Semanalmente, disponibilizo neste canal dicas preciosas para você aprender a cuidar melhor do seu dinheiro.",
+        "canal": "Gustavo Cerbasi",
+        "imagem_url": "https://i.ytimg.com/vi/y016b7NXlpQ/hqdefault.jpg",
+        "categorias": [
+          "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/y016b7NXlpQ"
+      },
+    {
+        "id": "MGsalg2f9js",
+        "tipo": "aula",
+        "titulo": "Mark Zuckerberg at Startup School 2013",
+        "descricao": "Mark Zuckerberg at Startup School 2013. Startup School is YC's free online program for founders.",
+        "canal": "Y Combinator",
+        "imagem_url": "https://i.ytimg.com/vi/MGsalg2f9js/hqdefault.jpg",
+        "categorias": [
+            "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/MGsalg2f9js"
+    },
+    {
+        "id": "0lJKucu6HJc",
+        "tipo": "aula",
+        "titulo": "Sam Altman - How to Succeed with a Startup",
+        "descricao": "Sam Altman, President of Y Combinator, shares his thoughts on how you can succeed with a startup. ",
+        "canal": "Y Combinator",
+        "imagem_url": "https://i.ytimg.com/vi/0lJKucu6HJc/hqdefault.jpg",
+        "categorias": [
+          "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/0lJKucu6HJc"
+    },
+    {
+        "id": "IPMJKBOo_vg",
+        "tipo": "aula",
+        "titulo": "Contabilidade Financeira X Contabilidade Gerencial - Conheça as 4 principais diferenças",
+        "descricao": "No vídeo de hoje vou conversar com vocês sobre as diferenças entre a contabilidade financeira e a gerencial!",
+        "canal": "Pensar Gerencial",
+        "imagem_url": "https://i.ytimg.com/vi/IPMJKBOo_vg/hqdefault.jpg",
+        "categorias": [
+          "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/IPMJKBOo_vg"
+    },
+    {
+        "id": "uiYHVUzMOfY",
+        "tipo": "aula",
+        "titulo": "Da cozinha para o Brasil: como fundar uma empresa de sucesso com Dener Lippert | Growthcast #42",
+        "descricao": "O que é preciso para se fundar e manter uma empresa de sucesso?",
+        "canal": "Growthcast",
+        "imagem_url": "https://i.ytimg.com/vi/uiYHVUzMOfY/hqdefault.jpg",
+        "categorias": [
+          "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/uiYHVUzMOfY"
+    },
+    {
+        "id": "4jaWDfTbytA",
+        "tipo": "aula",
+        "titulo": "MEU PRIMEIRO MILHÃO: Como fiquei milionária com 32 anos",
+        "descricao": "Finalmente cheguei à marca de 1 MILHÃO DE REAIS INVESTIDOS! Sem herança, sem roubar, sem ganhar na loteria, sem pegar emprestado de ninguém. Só trabalhando, fazendo escolhas mais inteligentes, aumentando meu valor de mercado, empreendendo e investindo corretamente. Nesse vídeo eu te conto quais foram os 5 passos que eu usei. Espero que te ajude a ficar mais focada (ou focado) na missão #Ricanessaencarnaçao PORQUE VOCÊ NÃO PRECISA ESPERAR A PRÓXIMA ENCARNAÇÃO PARA SER MILIONÁRIA!",
+        "canal": "Me Poupe!",
+        "imagem_url": "https://i.ytimg.com/vi/4jaWDfTbytA/hqdefault.jpg",
+        "categorias": [
+          "negócios"
+        ],
+        "pais": "BR",
+        "embed_url": "https://www.youtube.com/embed/4jaWDfTbytA"
+    }
+]

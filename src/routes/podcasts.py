@@ -18,6 +18,25 @@ def get_db():
     finally:
         db.close()
 
+def obter_aulas_youtube():
+    aulas = []
+
+    caminho_json = os.path.join(os.path.dirname(__file__), "..", "utils", "aula.json")
+    caminho_json = os.path.abspath(caminho_json)
+
+    if not os.path.exists(caminho_json):
+        print("[DEBUG] Aula JSON não encontrado:", caminho_json)
+        return aulas
+
+    try:
+        with open(caminho_json, "r", encoding="utf-8") as f:
+            aulas = json.load(f)
+            print(f"[DEBUG] {len(aulas)} aula(s) carregado(s) do JSON.")
+    except Exception as e:
+        print("[ERRO] Falha ao ler o JSON:", e)
+
+    return aulas
+
 def obter_podcasts():
     podcasts = []
 
@@ -158,7 +177,7 @@ def obter_conteudo_lbs(
     limit: int = Query(10, gt=0, le=100)
 ):
     podcasts = obter_podcasts()
-    aulas = inserir_videos_youtube()
+    aulas = obter_aulas_youtube()
     livros = obter_livros_pdf()
 
     caminho_bibliotecas = Path(__file__).resolve().parent.parent / "utils" / "bibliotecas.json"
@@ -169,21 +188,7 @@ def obter_conteudo_lbs(
         raise HTTPException(status_code=500, detail=f"Erro ao carregar bibliotecas: {str(e)}")
 
     conteudo_formatado = {
-        "podcast": [
-        {
-            "id": p["id"],
-            "tipo": "podcast",
-            "titulo": p["titulo"],
-            "descricao": p.get("descricao", ""),
-            "publicador": p.get("publicador", ""),
-            "url": p.get("url", ""),
-            "imagem_url": p.get("imagem_url", ""),
-            "categorias": p.get("categorias", ["negócios"]),
-            "pais": p.get("pais", "BR"),
-            "total_episodes": p.get("total_episodes", 0),
-            "embed_url": f"https://open.spotify.com/embed/show/{p['id']}"
-        } for p in podcasts
-    ],
+        "podcast": podcasts,
         "livro": livros,
         "aula": aulas,
         "biblioteca": bibliotecas
