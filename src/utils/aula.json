@@ -1,239 +1,5 @@
 [
     {
-        "id": "b5DTzlnHhM0",
-        "tipo": "aula",
-        "titulo": "Using the RAD Easy Bike Hoist",
-        "descricao": "",
-        "canal": "ycombinator",
-        "imagem_url": "https://i.ytimg.com/vi/b5DTzlnHhM0/hqdefault.jpg",
-        "categorias": [
-            "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/b5DTzlnHhM0"
-    },
-    {
-        "id": "cetbqPJhG78",
-        "tipo": "aula",
-        "titulo": "Baby rattlesnake on trail",
-        "descricao": "We found the snake laying across the middle of the trail. Previous hikers had warned us about it so we knew to look for it.",
-        "canal": "ycombinator",
-        "imagem_url": "https://i.ytimg.com/vi/cetbqPJhG78/hqdefault.jpg",
-        "categorias": [
-            "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/cetbqPJhG78"
-    },
-    {
-        "id": "2U7QJskevNs",
-        "tipo": "aula",
-        "titulo": "At the dog park",
-        "descricao": "Seger, wrestling with his friend at the dog park.",
-        "canal": "ycombinator",
-        "imagem_url": "https://i.ytimg.com/vi/2U7QJskevNs/hqdefault.jpg",
-        "categorias": [
-            "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/2U7QJskevNs"
-    },
-    {
-        "id": "IgR1S0MVIsw",
-        "tipo": "aula",
-        "titulo": "Seger is eager to meet daddy after being home alone for 5 hours",
-        "descricao": "",
-        "canal": "ycombinator",
-        "imagem_url": "https://i.ytimg.com/vi/IgR1S0MVIsw/hqdefault.jpg",
-        "categorias": [
-            "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/IgR1S0MVIsw"
-    },
-    {
-        "id": "ejTiEfoPJYQ",
-        "tipo": "aula",
-        "titulo": "Eager Seger",
-        "descricao": "This is how Seger usually greets me after I come home from work.",
-        "canal": "ycombinator",
-        "imagem_url": "https://i.ytimg.com/vi/ejTiEfoPJYQ/hqdefault.jpg",
-        "categorias": [
-            "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/ejTiEfoPJYQ"
-    },
-    {
-        "id": "echURQI0poc",
-        "tipo": "aula",
-        "titulo": "Unsuccessful attempt to bring long stick into the house",
-        "descricao": "",
-        "canal": "ycombinator",
-        "imagem_url": "https://i.ytimg.com/vi/echURQI0poc/hqdefault.jpg",
-        "categorias": [
-            "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/echURQI0poc"
-    },
-    {
-        "id": "ZQGZGRx2pn0",
-        "tipo": "aula",
-        "titulo": "Fetch",
-        "descricao": "Seger learns to fetch.",
-        "canal": "ycombinator",
-        "imagem_url": "https://i.ytimg.com/vi/ZQGZGRx2pn0/hqdefault.jpg",
-        "categorias": [
-            "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/ZQGZGRx2pn0"
-    },
-    {
-        "id": "fpDYSv4A1Zg",
-        "tipo": "aula",
-        "titulo": "The battle of the long sock",
-        "descricao": "",
-        "canal": "ycombinator",
-        "imagem_url": "https://i.ytimg.com/vi/fpDYSv4A1Zg/hqdefault.jpg",
-        "categorias": [
-            "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/fpDYSv4A1Zg"
-    },
-    {
-        "id": "5xAgKRFvFg0",
-        "tipo": "aula",
-        "titulo": "Top AI news: ChatGPT undeletes your chats, Copilot security flaw, Veo 3 TV ad",
-        "descricao": "This week in AI: Veo 3 makes a TV ad, ChatGPT saves your deleted chats, Midjourney gets sued, Google talks AGI, and Copilot ...",
-        "canal": "Data School",
-        "imagem_url": "https://i.ytimg.com/vi/5xAgKRFvFg0/hqdefault.jpg",
-        "categorias": [
-            "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/5xAgKRFvFg0"
-    },
-    {
-        "id": "JF8WjK70AEQ",
-        "tipo": "aula",
-        "titulo": "What is Retrieval Augmented Generation (RAG)?",
-        "descricao": "This is a lesson from my new course, Build AI agents with Python: https://courses.dataschool.io/build-ai-agents-with-python 0:00 ...",
-        "canal": "Data School",
-        "imagem_url": "https://i.ytimg.com/vi/JF8WjK70AEQ/hqdefault.jpg",
-        "categorias": [
-            "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/JF8WjK70AEQ"
-    },
-    {
-        "id": "TDlGKocbHoc",
-        "tipo": "aula",
-        "titulo": "Jupyter &amp; IPython terminology explained",
-        "descricao": "Are you trying to understand the differences between Jupyter Notebook, JupyterLab, IPython, Colab, and other related terms?",
-        "canal": "Data School",
-        "imagem_url": "https://i.ytimg.com/vi/TDlGKocbHoc/hqdefault.jpg",
-        "categorias": [
-            "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/TDlGKocbHoc"
-    },
-    {
-        "id": "rOKXLCCyWn8",
-        "tipo": "aula",
-        "titulo": "How to keep up with AI in 2025",
-        "descricao": "AI is moving incredibly FAST. I'll show you the 7 best sources I follow to keep up with the most important developments in AI.",
-        "canal": "Data School",
-        "imagem_url": "https://i.ytimg.com/vi/rOKXLCCyWn8/hqdefault.jpg",
-        "categorias": [
-            "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/rOKXLCCyWn8"
-    },
-    {
-        "id": "GnN3Lqh3wOU",
-        "tipo": "aula",
-        "titulo": "Build an AI chatbot with Python",
-        "descricao": "Watch the first two lessons of my new course, Build an AI chatbot with Python ($9): ...",
-        "canal": "Data School",
-        "imagem_url": "https://i.ytimg.com/vi/GnN3Lqh3wOU/hqdefault.jpg",
-        "categorias": [
-            "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/GnN3Lqh3wOU"
-    },
-    {
-        "id": "ChGDJda7usk",
-        "tipo": "aula",
-        "titulo": "Guess the MYSTERY course 🎁",
-        "descricao": "Guess the topic of my new course, and on Friday I'll randomly select TWO people who were correct to get a FREE copy of the ...",
-        "canal": "Data School",
-        "imagem_url": "https://i.ytimg.com/vi/ChGDJda7usk/hqdefault.jpg",
-        "categorias": [
-            "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/ChGDJda7usk"
-    },
-    {
-        "id": "mN51Tp02RNk",
-        "tipo": "aula",
-        "titulo": "Course outline: &quot;Master Machine Learning with scikit-learn&quot;",
-        "descricao": "This is the outline of my NEW course, \"Master Machine Learning with scikit-learn.\" You can enroll here: ...",
-        "canal": "Data School",
-        "imagem_url": "https://i.ytimg.com/vi/mN51Tp02RNk/hqdefault.jpg",
-        "categorias": [
-            "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/mN51Tp02RNk"
-    },
-    {
-        "id": "ZYJ7OjNobmA",
-        "tipo": "aula",
-        "titulo": "Course overview: &quot;Master Machine Learning with scikit-learn&quot;",
-        "descricao": "This is the overview of my NEW course, \"Master Machine Learning with scikit-learn.\" You can enroll here: ...",
-        "canal": "Data School",
-        "imagem_url": "https://i.ytimg.com/vi/ZYJ7OjNobmA/hqdefault.jpg",
-        "categorias": [
-            "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/ZYJ7OjNobmA"
-    },
-    {
-        "id": "AZzk8fQVHSU",
-        "tipo": "aula",
-        "titulo": "Introduction to model ensembling",
-        "descricao": "Learn the how & why of \"ensembling\", the surprisingly simple way to make better Machine Learning predictions! P.S. This is a ...",
-        "canal": "Data School",
-        "imagem_url": "https://i.ytimg.com/vi/AZzk8fQVHSU/hqdefault.jpg",
-        "categorias": [
-            "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/AZzk8fQVHSU"
-    },
-    {
-        "id": "47jp10PxzIg",
-        "tipo": "aula",
-        "titulo": "How to save a scikit-learn Pipeline with custom transformers",
-        "descricao": "If you need to save a Pipeline with custom transformers, you'll have to define the functions it depends upon in the new ...",
-        "canal": "Data School",
-        "imagem_url": "https://i.ytimg.com/vi/47jp10PxzIg/hqdefault.jpg",
-        "categorias": [
-            "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/47jp10PxzIg"
-    },
-    {
         "id": "_uSi7FATpPI", 
         "tipo": "aula", 
         "titulo": "CARREIRA PROFISSIONAL | COMO SE TORNAR UM CEO? | O Conselho 13", 
@@ -360,5 +126,57 @@
         ],
         "pais": "BR",
         "embed_url": "https://www.youtube.com/embed/4jaWDfTbytA"
-    }
+    },
+    {
+      "id": "P51GTC8gvRw",
+      "tipo": "aula",
+      "titulo": "Top 3 Moments When Entrepreneurs Sold Their Entire Company | Shark Tank US | Shark Tank Global",
+      "descricao": "The Sharks sunk their jaws into these companies, buying them out 100%! Watch the emotional reactions of these entrepreneurs as they let go of their businesses.\n\n00:03 - EvREwares – [S6 E14] \n11:09 - Moki Doorstep – [S10 E9] \n19:46 - HyConn – [S2 EP8]\n\nWatch Shark Tank USA Now: http://AAN.SonyPictures.com/SharkTankUSHulu\nSome of the links in above are affiliate links, we may earn a small commission if you click through and make a purchase.\n\nSubscribe to Shark Tank Global for more from your favorite shows: https://www.youtube.com/channel/UCREgA-BmOocJ9Is_bZV6aJQ\n\nFOLLOW SHARK TANK\nShark Tank Global Facebook - [https://www.facebook.com/GlobalSharkTank]\n\nAbout Shark Tank: The Sharks – tough, self-made, multi-millionaire and billionaire tycoons – continue their search to invest in the best businesses and products that America has to offer. The Sharks will once again give people from all walks of life the chance to chase the American dream and potentially secure business deals that could make them millionaires.\n\n#SharkTank #SharkTankUS \n\nTop 3 Moments When Entrepreneurs Sold Their Entire Company | Shark Tank US | Shark Tank Global\nhttps://www.youtube.com/channel/UCREgA-BmOocJ9Is_bZV6aJQ",
+      "canal": "Shark Tank Global",
+      "imagem_url": "https://i.ytimg.com/vi/P51GTC8gvRw/hqdefault.jpg",
+      "categorias": [
+        "negócios"
+      ],
+      "pais": "BR",
+      "embed_url": "https://www.youtube.com/embed/P51GTC8gvRw"
+  },
+  {
+      "id": "iuNJLtj10Lg",
+      "tipo": "aula",
+      "titulo": "Elon Musk's Ultimate Advice for Students & College Grads - HOW TO SUCCEED IN LIFE",
+      "descricao": "From 2 University Degrees to 20 Billion Dollars - This is Elon Musk's Ultimate Advice for high school students and college graduates. Can't find a job? Neither could billionaire Elon Musk.\n\nAfter receiving a Bachelor of Science degree in physics from the University of Pennsylvania and a Bachelor of Science degree in economics from it's Wharton School of business, Elon Musk tried and failed to find a job at an internet company. He and his brother then decided to start a web software company called Zip2, and the rest is history!\n\nComment below if you are the next Elon Musk!\n\n ------------------------\nWays to stay connected with Motivation2Study and stay motivated all day long:\n\n►SUBSCRIBE for New Motivational Videos every Week!\nhttp://bit.ly/StudyMotivation\n\n▶DOWNLOAD for Free our Top 7 Study Tips!\nhttps://bit.ly/m2sfreestudytips\n\n▶JOIN our Newsletter for Exclusive Updates, Discounts, and Student Deals:\nhttps://bit.ly/motivation2studynewsletter\n\n▶FOLLOW our Podcast: https://linktr.ee/motivation2study\n\n▶SHOP Motivational Canvases and Apparel\nhttps://bit.ly/motiversityshop\n\n▶BECOME A MEMBER of our loyal community!\nhttps://bit.ly/m2smembers\n ------------------------\n►Follow Motivation2Study:\n\nFind us everywhere: https://linktr.ee/motivation2study\nDiscord: https://bit.ly/motivation2studydiscord\nInstagram: https://bit.ly/motivation2studyinstagram\nFacebook: https://bit.ly/motivation2studyfacebook \nTikTok: https://bit.ly/motivation2studytiktok \nPodcasts: https://linktr.ee/motivation2study\nMindset App: https://bit.ly/M2SMindsetApp\nWebsite: https://bit.ly/motivation2studywebsite\n\n►Get Elon Musk's book: Tesla, SpaceX, and the Quest for a Fantastic Future: https://amzn.to/2r6xHEE\n\nMusic:\n►Really Slow Motion - Heart of Gold\n►Really Slow Motion - Soar\nBuy Really Slow Motion music:\nAmazon : http://amzn.to/1lTltY5\niTunes: http://bit.ly/1ee3l8K\nSpotify: http://bit.ly/1r3lPvN\nBandcamp: http://bit.ly/1DqtZSo\n\n►Borrtex - Last Day of High School\nBandcamp: https://borrtex.bandcamp.com/\nSoundcloud: https://soundcloud.com/user-910809074\nInstagram: https://www.instagram.com/borrtex/\nYoutube: https://www.youtube.com/Borrtex\niTunes: https://itunes.apple.com/us/artist/bo...\n ------------\n►Video Sources:\n\nStudyToSuccess: http://bit.ly/StudyToSuccess\n\nCreative Commons Sources: See end of video credits for all CC-BY footage used.\n\nAll Creative Commons works licensed under CC BY 3.0\nhttps://creativecommons.org/licenses/by/3.0/\n\nIf you are the legal content owner of any material posted on this channel and would like it removed please message us at team@motivation2study.com for removal.\n ------------\n▶Submit to M2S:\nSpeeches: http://bit.ly/M2SSpeakerSubmissions\nMusic or Footage: http://bit.ly/M2SMusicandFootage\nBusiness Inquiries: http://bit.ly/M2SBuisnessInquiries\n________________________________________________________________\n🎧 Listen to all our videos on the New Mindset App:\nhttps://bit.ly/M2SonMindsetApp\n\n📘 Recommended Reading List \nhttps://amzn.to/2v6QPY0\n\n📕 Audible 30-day Free Trial:\nhttps://amzn.to/4bQcwuj\n\n💌 Amazon Prime Student 6-mo Free Trial: \nhttps://amzn.to/4aAMolZ\n\n🎵 Epidemic Sound: music for your videos, 7-day Free Trial:\nhttps://share.epidemicsound.com/sdvpv3\n \nDisclaimer: Please note some links above are affiliate links. If you use them and make a purchase we receive a commission. Thank you for your support!",
+      "canal": "Motivation2Study",
+      "imagem_url": "https://i.ytimg.com/vi/iuNJLtj10Lg/hqdefault.jpg",
+      "categorias": [
+          "negócios"
+      ],
+      "pais": "BR",
+      "embed_url": "https://www.youtube.com/embed/iuNJLtj10Lg"
+  },
+  {
+      "id": "UF8uR6Z6KLc",
+      "tipo": "aula",
+      "titulo": "Steve Jobs' 2005 Stanford Commencement Address",
+      "descricao": "Drawing from some of the most pivotal points in his life, Steve Jobs, chief executive officer and co-founder of Apple Computer and of Pixar Animation Studios, urged graduates to pursue their dreams and see the opportunities in life's setbacks -- including death itself -- at the university's 114th Commencement on June 12, 2005.\n\nTranscript of Steve Jobs' address:\nhttp://news-service.stanford.edu/news/2005/june15/jobs-061505.html\n\nStanford University channel on YouTube:\nhttp://www.youtube.com/stanford",
+      "canal": "Stanford",
+      "imagem_url": "https://i.ytimg.com/vi/UF8uR6Z6KLc/hqdefault.jpg",
+      "categorias": [
+        "negócios"
+      ],
+      "pais": "BR",
+      "embed_url": "https://www.youtube.com/embed/UF8uR6Z6KLc"
+  },
+  {
+      "id": "rDqQcmVqAm4",
+      "tipo": "aula",
+      "titulo": "Steve Jobs   The Lost Interview",
+      "descricao": "",
+      "canal": "Steve Jobs",
+      "imagem_url": "https://i.ytimg.com/vi/rDqQcmVqAm4/hqdefault.jpg",
+      "categorias": [
+        "negócios"
+      ],
+      "pais": "BR",
+      "embed_url": "https://www.youtube.com/embed/rDqQcmVqAm4"
+  }
 ]
