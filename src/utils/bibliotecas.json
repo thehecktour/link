@@ -148,6 +148,16 @@
       "Nome": "DIRECTORY OPEN ACCESS JOURNALS",
       "Descricao": "Diretório de revistas eletrônicas de acesso aberto mantido pela Lund University Libraries.",
       "Link": "https://doaj.org/"
+    },
+    {
+      "Nome": "Vídeo-aulas USP",
+      "Descricao": "Vídeo-aulas USP nas áreas de administração, economia, matemática e estatística oferecem uma abordagem integrada para entender a análise de dados e a tomada de decisões. Elas cobrem tópicos como modelos matemáticos, técnicas estatísticas e suas aplicações em contextos administrativos e econômicos. O conteúdo é projetado para capacitar alunos e profissionais a utilizarem ferramentas quantitativas na resolução de problemas práticos.",
+      "Link": "https://eaulas.usp.br/portal/home"
+    },
+    {
+      "Nome": "The Babson Collaborative",
+      "Descricao": "Oferece uma plataforma para colaboração entre membros da comunidade acadêmica, permitindo acesso a recursos, informações e ferramentas de networking. Os usuários podem compartilhar ideias, participar de discussões e acessar materiais relevantes para suas atividades.",
+      "Link": "https://www.babsoncollaborative.org/"
     }
   ]
   
