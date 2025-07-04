@@ -1,182 +1,156 @@
 [
-    {
-        "id": "_uSi7FATpPI", 
-        "tipo": "aula", 
-        "titulo": "CARREIRA PROFISSIONAL | COMO SE TORNAR UM CEO? | O Conselho 13", 
-        "descricao": "Tema do episódio de hoje: carreira profissional", 
-        "canal": "O Conselho | Flávio Augusto", 
-        "imagem_url": "https://i.ytimg.com/vi/_uSi7FATpPI/hqdefault.jpg", 
-        "categorias": ["negócios"], 
-        "pais": "BR", 
-        "embed_url": "https://www.youtube.com/embed/_uSi7FATpPI"
-    },
-    {
-        "id": "lLdWRWiyoCM",
-        "tipo": "aula",
-        "titulo": "INFLUÊNCIA | COMO USAR A AUDIÊNCIA PARA VENDER MILHÕES | O Conselho 15",
-        "descricao": "INFLUÊNCIA | COMO USAR A AUDIÊNCIA PARA VENDER MILHÕES | O Conselho 14",
-        "canal": "O Conselho | Flávio Augusto",
-        "imagem_url": "https://i.ytimg.com/vi/lLdWRWiyoCM/hqdefault.jpg",
-        "categorias": [
-          "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/lLdWRWiyoCM"
-    },
-    {
-        "id": "DxREm3s1scA",
-        "tipo": "aula",
-        "titulo": "Elon Musk: SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI | Lex Fridman Podcast #252",
-        "descricao": "Elon Musk is CEO of SpaceX, Tesla, Neuralink, and The Boring Company",
-        "canal": "Lex Fridman",
-        "imagem_url": "https://i.ytimg.com/vi/DxREm3s1scA/hqdefault.jpg",
-        "categorias": [
-            "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/DxREm3s1scA"
-    },
-    {
-        "id": "ae5MssJ8en4",
-        "tipo": "aula",
-        "titulo": "A Bidding War Breaks Out During Scrub Daddy's Pitch | Shark Tank US | Shark Tank Global",
-        "descricao": "Aaron Krause is seeking $100,000 for 10% stake in Scrub Daddy.",
-        "canal": "Shark Tank Global",
-        "imagem_url": "https://i.ytimg.com/vi/ae5MssJ8en4/hqdefault.jpg",
-        "categorias": [
-          "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/ae5MssJ8en4"
-    },
-    {
-        "id": "y016b7NXlpQ",
-        "tipo": "aula",
-        "titulo": "Orçamento inteligente",
-        "descricao": "Semanalmente, disponibilizo neste canal dicas preciosas para você aprender a cuidar melhor do seu dinheiro.",
-        "canal": "Gustavo Cerbasi",
-        "imagem_url": "https://i.ytimg.com/vi/y016b7NXlpQ/hqdefault.jpg",
-        "categorias": [
-          "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/y016b7NXlpQ"
-      },
-    {
-        "id": "MGsalg2f9js",
-        "tipo": "aula",
-        "titulo": "Mark Zuckerberg at Startup School 2013",
-        "descricao": "Mark Zuckerberg at Startup School 2013. Startup School is YC's free online program for founders.",
-        "canal": "Y Combinator",
-        "imagem_url": "https://i.ytimg.com/vi/MGsalg2f9js/hqdefault.jpg",
-        "categorias": [
-            "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/MGsalg2f9js"
-    },
-    {
-        "id": "0lJKucu6HJc",
-        "tipo": "aula",
-        "titulo": "Sam Altman - How to Succeed with a Startup",
-        "descricao": "Sam Altman, President of Y Combinator, shares his thoughts on how you can succeed with a startup. ",
-        "canal": "Y Combinator",
-        "imagem_url": "https://i.ytimg.com/vi/0lJKucu6HJc/hqdefault.jpg",
-        "categorias": [
-          "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/0lJKucu6HJc"
-    },
-    {
-        "id": "IPMJKBOo_vg",
-        "tipo": "aula",
-        "titulo": "Contabilidade Financeira X Contabilidade Gerencial - Conheça as 4 principais diferenças",
-        "descricao": "No vídeo de hoje vou conversar com vocês sobre as diferenças entre a contabilidade financeira e a gerencial!",
-        "canal": "Pensar Gerencial",
-        "imagem_url": "https://i.ytimg.com/vi/IPMJKBOo_vg/hqdefault.jpg",
-        "categorias": [
-          "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/IPMJKBOo_vg"
-    },
-    {
-        "id": "uiYHVUzMOfY",
-        "tipo": "aula",
-        "titulo": "Da cozinha para o Brasil: como fundar uma empresa de sucesso com Dener Lippert | Growthcast #42",
-        "descricao": "O que é preciso para se fundar e manter uma empresa de sucesso?",
-        "canal": "Growthcast",
-        "imagem_url": "https://i.ytimg.com/vi/uiYHVUzMOfY/hqdefault.jpg",
-        "categorias": [
-          "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/uiYHVUzMOfY"
-    },
-    {
-        "id": "4jaWDfTbytA",
-        "tipo": "aula",
-        "titulo": "MEU PRIMEIRO MILHÃO: Como fiquei milionária com 32 anos",
-        "descricao": "Finalmente cheguei à marca de 1 MILHÃO DE REAIS INVESTIDOS! Sem herança, sem roubar, sem ganhar na loteria, sem pegar emprestado de ninguém. Só trabalhando, fazendo escolhas mais inteligentes, aumentando meu valor de mercado, empreendendo e investindo corretamente. Nesse vídeo eu te conto quais foram os 5 passos que eu usei. Espero que te ajude a ficar mais focada (ou focado) na missão #Ricanessaencarnaçao PORQUE VOCÊ NÃO PRECISA ESPERAR A PRÓXIMA ENCARNAÇÃO PARA SER MILIONÁRIA!",
-        "canal": "Me Poupe!",
-        "imagem_url": "https://i.ytimg.com/vi/4jaWDfTbytA/hqdefault.jpg",
-        "categorias": [
-          "negócios"
-        ],
-        "pais": "BR",
-        "embed_url": "https://www.youtube.com/embed/4jaWDfTbytA"
-    },
-    {
-      "id": "P51GTC8gvRw",
-      "tipo": "aula",
-      "titulo": "Top 3 Moments When Entrepreneurs Sold Their Entire Company | Shark Tank US | Shark Tank Global",
-      "descricao": "The Sharks sunk their jaws into these companies, buying them out 100%! Watch the emotional reactions of these entrepreneurs as they let go of their businesses.",
-      "canal": "Shark Tank Global",
-      "imagem_url": "https://i.ytimg.com/vi/P51GTC8gvRw/hqdefault.jpg",
-      "categorias": [
-        "negócios"
-      ],
-      "pais": "BR",
-      "embed_url": "https://www.youtube.com/embed/P51GTC8gvRw"
+  {
+    "id": "_uSi7FATpPI",
+    "tipo": "aula",
+    "titulo": "CARREIRA PROFISSIONAL | COMO SE TORNAR UM CEO? | O Conselho 13",
+    "descricao": "Neste episódio de O Conselho, Flávio Augusto compartilha insights valiosos sobre os passos necessários para construir uma carreira sólida e se tornar um CEO de sucesso.",
+    "canal": "O Conselho | Flávio Augusto",
+    "imagem_url": "https://i.ytimg.com/vi/_uSi7FATpPI/hqdefault.jpg",
+    "categorias": ["negócios"],
+    "pais": "BR",
+    "embed_url": "https://www.youtube.com/embed/_uSi7FATpPI"
   },
   {
-      "id": "iuNJLtj10Lg",
-      "tipo": "aula",
-      "titulo": "Elon Musk's Ultimate Advice for Students & College Grads - HOW TO SUCCEED IN LIFE",
-      "descricao": "From 2 University Degrees to 400 Billion Dollars - This is Elon Musk's Ultimate Advice for high school students and college graduates. Can't find a job? Neither could billionaire Elon Musk.",
-      "canal": "Motivation2Study",
-      "imagem_url": "https://i.ytimg.com/vi/iuNJLtj10Lg/hqdefault.jpg",
-      "categorias": [
-          "negócios"
-      ],
-      "pais": "BR",
-      "embed_url": "https://www.youtube.com/embed/iuNJLtj10Lg"
+    "id": "lLdWRWiyoCM",
+    "tipo": "aula",
+    "titulo": "INFLUÊNCIA | COMO USAR A AUDIÊNCIA PARA VENDER MILHÕES | O Conselho 15",
+    "descricao": "Descubra como transformar influência e audiência em vendas milionárias, com estratégias práticas e exemplos do mercado compartilhados por Flávio Augusto.",
+    "canal": "O Conselho | Flávio Augusto",
+    "imagem_url": "https://i.ytimg.com/vi/lLdWRWiyoCM/hqdefault.jpg",
+    "categorias": ["negócios"],
+    "pais": "BR",
+    "embed_url": "https://www.youtube.com/embed/lLdWRWiyoCM"
   },
   {
-      "id": "UF8uR6Z6KLc",
-      "tipo": "aula",
-      "titulo": "Steve Jobs' 2005 Stanford Commencement Address",
-      "descricao": "Drawing from some of the most pivotal points in his life, Steve Jobs, chief executive officer and co-founder of Apple Computer and of Pixar Animation Studios, urged graduates to pursue their dreams and see the opportunities in life's setbacks -- including death itself -- at the university's 114th Commencement on June 12, 2005.",
-      "canal": "Stanford",
-      "imagem_url": "https://i.ytimg.com/vi/UF8uR6Z6KLc/hqdefault.jpg",
-      "categorias": [
-        "negócios"
-      ],
-      "pais": "BR",
-      "embed_url": "https://www.youtube.com/embed/UF8uR6Z6KLc"
+    "id": "DxREm3s1scA",
+    "tipo": "aula",
+    "titulo": "Elon Musk: SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI | Lex Fridman Podcast #252",
+    "descricao": "Elon Musk fala sobre seus projetos mais ambiciosos e o futuro da humanidade, abordando temas como inteligência artificial, carros autônomos e a colonização de Marte.",
+    "canal": "Lex Fridman",
+    "imagem_url": "https://i.ytimg.com/vi/DxREm3s1scA/hqdefault.jpg",
+    "categorias": ["negócios"],
+    "pais": "BR",
+    "embed_url": "https://www.youtube.com/embed/DxREm3s1scA"
   },
   {
-      "id": "rDqQcmVqAm4",
-      "tipo": "aula",
-      "titulo": "Steve Jobs - The Lost Interview",
-      "descricao": "",
-      "canal": "Steve Jobs",
-      "imagem_url": "https://i.ytimg.com/vi/rDqQcmVqAm4/hqdefault.jpg",
-      "categorias": [
-        "negócios"
-      ],
-      "pais": "BR",
-      "embed_url": "https://www.youtube.com/embed/rDqQcmVqAm4"
+    "id": "ae5MssJ8en4",
+    "tipo": "aula",
+    "titulo": "A Bidding War Breaks Out During Scrub Daddy's Pitch | Shark Tank US | Shark Tank Global",
+    "descricao": "Acompanhe o pitch eletrizante de Scrub Daddy, que gerou uma guerra de ofertas entre os investidores no Shark Tank e se tornou um dos maiores sucessos do programa.",
+    "canal": "Shark Tank Global",
+    "imagem_url": "https://i.ytimg.com/vi/ae5MssJ8en4/hqdefault.jpg",
+    "categorias": ["negócios"],
+    "pais": "BR",
+    "embed_url": "https://www.youtube.com/embed/ae5MssJ8en4"
+  },
+  {
+    "id": "y016b7NXlpQ",
+    "tipo": "aula",
+    "titulo": "Orçamento inteligente",
+    "descricao": "Gustavo Cerbasi apresenta estratégias práticas para controlar melhor o seu orçamento e alcançar uma vida financeira equilibrada e sustentável.",
+    "canal": "Gustavo Cerbasi",
+    "imagem_url": "https://i.ytimg.com/vi/y016b7NXlpQ/hqdefault.jpg",
+    "categorias": ["negócios"],
+    "pais": "BR",
+    "embed_url": "https://www.youtube.com/embed/y016b7NXlpQ"
+  },
+  {
+    "id": "MGsalg2f9js",
+    "tipo": "aula",
+    "titulo": "Mark Zuckerberg at Startup School 2013",
+    "descricao": "Mark Zuckerberg compartilha sua jornada como fundador do Facebook e oferece conselhos sobre inovação, crescimento e empreendedorismo para startups.",
+    "canal": "Y Combinator",
+    "imagem_url": "https://i.ytimg.com/vi/MGsalg2f9js/hqdefault.jpg",
+    "categorias": ["negócios"],
+    "pais": "BR",
+    "embed_url": "https://www.youtube.com/embed/MGsalg2f9js"
+  },
+  {
+    "id": "0lJKucu6HJc",
+    "tipo": "aula",
+    "titulo": "Sam Altman - How to Succeed with a Startup",
+    "descricao": "Sam Altman, da Y Combinator, revela os princípios fundamentais para lançar e escalar uma startup de forma bem-sucedida no competitivo mercado atual.",
+    "canal": "Y Combinator",
+    "imagem_url": "https://i.ytimg.com/vi/0lJKucu6HJc/hqdefault.jpg",
+    "categorias": ["negócios"],
+    "pais": "BR",
+    "embed_url": "https://www.youtube.com/embed/0lJKucu6HJc"
+  },
+  {
+    "id": "IPMJKBOo_vg",
+    "tipo": "aula",
+    "titulo": "Contabilidade Financeira X Contabilidade Gerencial - Conheça as 4 principais diferenças",
+    "descricao": "Aprenda as principais diferenças entre contabilidade financeira e gerencial e entenda como cada uma impacta na tomada de decisão dentro das empresas.",
+    "canal": "Pensar Gerencial",
+    "imagem_url": "https://i.ytimg.com/vi/IPMJKBOo_vg/hqdefault.jpg",
+    "categorias": ["negócios"],
+    "pais": "BR",
+    "embed_url": "https://www.youtube.com/embed/IPMJKBOo_vg"
+  },
+  {
+    "id": "uiYHVUzMOfY",
+    "tipo": "aula",
+    "titulo": "Da cozinha para o Brasil: como fundar uma empresa de sucesso com Dener Lippert | Growthcast #42",
+    "descricao": "Dener Lippert compartilha sua trajetória inspiradora, desde os primeiros passos até a fundação de uma empresa de sucesso nacional, com dicas práticas de crescimento.",
+    "canal": "Growthcast",
+    "imagem_url": "https://i.ytimg.com/vi/uiYHVUzMOfY/hqdefault.jpg",
+    "categorias": ["negócios"],
+    "pais": "BR",
+    "embed_url": "https://www.youtube.com/embed/uiYHVUzMOfY"
+  },
+  {
+    "id": "4jaWDfTbytA",
+    "tipo": "aula",
+    "titulo": "MEU PRIMEIRO MILHÃO: Como fiquei milionária com 32 anos",
+    "descricao": "Nathalia Arcuri revela os passos práticos que a levaram a alcançar 1 milhão de reais investidos, com foco em escolhas inteligentes, empreendedorismo e educação financeira.",
+    "canal": "Me Poupe!",
+    "imagem_url": "https://i.ytimg.com/vi/4jaWDfTbytA/hqdefault.jpg",
+    "categorias": ["negócios"],
+    "pais": "BR",
+    "embed_url": "https://www.youtube.com/embed/4jaWDfTbytA"
+  },
+  {
+    "id": "P51GTC8gvRw",
+    "tipo": "aula",
+    "titulo": "Top 3 Moments When Entrepreneurs Sold Their Entire Company | Shark Tank US | Shark Tank Global",
+    "descricao": "Reviva os momentos mais impactantes do Shark Tank, em que empreendedores venderam 100% de suas empresas e emocionaram os investidores com suas histórias.",
+    "canal": "Shark Tank Global",
+    "imagem_url": "https://i.ytimg.com/vi/P51GTC8gvRw/hqdefault.jpg",
+    "categorias": ["negócios"],
+    "pais": "BR",
+    "embed_url": "https://www.youtube.com/embed/P51GTC8gvRw"
+  },
+  {
+    "id": "iuNJLtj10Lg",
+    "tipo": "aula",
+    "titulo": "Elon Musk's Ultimate Advice for Students & College Grads - HOW TO SUCCEED IN LIFE",
+    "descricao": "Elon Musk compartilha seus conselhos mais valiosos para estudantes e recém-formados, com foco em atitude, aprendizado e inovação para alcançar o sucesso.",
+    "canal": "Motivation2Study",
+    "imagem_url": "https://i.ytimg.com/vi/iuNJLtj10Lg/hqdefault.jpg",
+    "categorias": ["negócios"],
+    "pais": "BR",
+    "embed_url": "https://www.youtube.com/embed/iuNJLtj10Lg"
+  },
+  {
+    "id": "UF8uR6Z6KLc",
+    "tipo": "aula",
+    "titulo": "Steve Jobs' 2005 Stanford Commencement Address",
+    "descricao": "Um dos discursos mais icônicos da história: Steve Jobs fala aos formandos de Stanford sobre paixão, propósito e como transformar fracassos em oportunidades.",
+    "canal": "Stanford",
+    "imagem_url": "https://i.ytimg.com/vi/UF8uR6Z6KLc/hqdefault.jpg",
+    "categorias": ["negócios"],
+    "pais": "BR",
+    "embed_url": "https://www.youtube.com/embed/UF8uR6Z6KLc"
+  },
+  {
+    "id": "rDqQcmVqAm4",
+    "tipo": "aula",
+    "titulo": "Steve Jobs - The Lost Interview",
+    "descricao": "Nesta entrevista rara e reveladora, Steve Jobs discute sua visão de futuro, inovação e os desafios que enfrentou ao longo de sua trajetória empreendedora.",
+    "canal": "Steve Jobs",
+    "imagem_url": "https://i.ytimg.com/vi/rDqQcmVqAm4/hqdefault.jpg",
+    "categorias": ["negócios"],
+    "pais": "BR",
+    "embed_url": "https://www.youtube.com/embed/rDqQcmVqAm4"
   }
 ]
