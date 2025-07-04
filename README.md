@@ -9,20 +9,9 @@ Esta é a API pública da **Link Business School**, que oferece acesso a conteú
 
 ## 📌 Endpoints Disponíveis
 
-### 🔄 `GET /obter_top_podcasts`
 
-Atualiza e salva no banco de dados os principais podcasts de negócios do Brasil e dos EUA diretamente da API do Spotify.
-
-#### ✅ Resposta:
-```json
-{
-  "mensagem": "50 podcasts atualizados e salvos no banco de dados."
-}
-```
-
-
-🎧 GET /conteudo-lbs
-#### Retorna uma lista paginada de conteúdos de acordo com o tipo: podcast, livro, aula ou biblioteca.
+#### 🎧 GET /conteudo-lbs
+- Retorna uma lista paginada de conteúdos de acordo com o tipo: podcast, livro, aula ou biblioteca.
 
 🔸 Parâmetros:
 Parâmetro	Tipo	Obrigatório	Padrão	Descrição
