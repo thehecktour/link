@@ -170,6 +170,28 @@ def atualizar_podcasts(db: Session = Depends(get_db)):
     return {"mensagem": f"{total} podcasts atualizados e salvos no banco de dados."}
 
 
+def flatten_podcasts(podcasts: list[dict]) -> list[dict]:
+    episodios_flat = []
+
+    for podcast in podcasts:
+        for episodio in podcast.get("episodios", []):
+            episodios_flat.append({
+                "tipo": "podcast",
+                "podcast_id": podcast["id"],
+                "podcast_titulo": podcast["titulo"],
+                "publicador": podcast["publicador"],
+                "episodio_id": episodio["id"],
+                "episodio_titulo": episodio["titulo"],
+                "descricao": episodio["descricao"],
+                "data_lancamento": episodio["data_lancamento"],
+                "duracao_ms": episodio["duracao_ms"],
+                "url": episodio["url"],
+                "embed_url": episodio["embed_url"],
+                "imagem_url": episodio["imagem_url"]
+            })
+    return episodios_flat
+
+
 @router.get("/conteudo-lbs")
 def obter_conteudo_lbs(
     db: Session = Depends(get_db),
@@ -189,7 +211,7 @@ def obter_conteudo_lbs(
         raise HTTPException(status_code=500, detail=f"Erro ao carregar bibliotecas: {str(e)}")
 
     conteudo_formatado = {
-        "podcast": podcasts,
+        "podcast": flatten_podcasts(podcasts),
         "livro": livros,
         "aula": aulas,
         "biblioteca": bibliotecas
