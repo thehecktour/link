@@ -8,7 +8,8 @@
     "imagem_url": "https://i.ytimg.com/vi/_uSi7FATpPI/hqdefault.jpg",
     "categorias": ["negócios"],
     "pais": "BR",
-    "embed_url": "https://www.youtube.com/embed/_uSi7FATpPI"
+    "embed_url": "https://www.youtube.com/embed/_uSi7FATpPI",
+    "duracao": 88
   },
   {
     "id": "lLdWRWiyoCM",
@@ -19,7 +20,8 @@
     "imagem_url": "https://i.ytimg.com/vi/lLdWRWiyoCM/hqdefault.jpg",
     "categorias": ["negócios"],
     "pais": "BR",
-    "embed_url": "https://www.youtube.com/embed/lLdWRWiyoCM"
+    "embed_url": "https://www.youtube.com/embed/lLdWRWiyoCM",
+    "duracao": 96
   },
   {
     "id": "DxREm3s1scA",
@@ -30,7 +32,8 @@
     "imagem_url": "https://i.ytimg.com/vi/DxREm3s1scA/hqdefault.jpg",
     "categorias": ["negócios"],
     "pais": "BR",
-    "embed_url": "https://www.youtube.com/embed/DxREm3s1scA"
+    "embed_url": "https://www.youtube.com/embed/DxREm3s1scA",
+    "duracao": 151
   },
   {
     "id": "ae5MssJ8en4",
@@ -41,7 +44,8 @@
     "imagem_url": "https://i.ytimg.com/vi/ae5MssJ8en4/hqdefault.jpg",
     "categorias": ["negócios"],
     "pais": "BR",
-    "embed_url": "https://www.youtube.com/embed/ae5MssJ8en4"
+    "embed_url": "https://www.youtube.com/embed/ae5MssJ8en4",
+    "duracao": 12
   },
   {
     "id": "y016b7NXlpQ",
@@ -52,7 +56,8 @@
     "imagem_url": "https://i.ytimg.com/vi/y016b7NXlpQ/hqdefault.jpg",
     "categorias": ["negócios"],
     "pais": "BR",
-    "embed_url": "https://www.youtube.com/embed/y016b7NXlpQ"
+    "embed_url": "https://www.youtube.com/embed/y016b7NXlpQ",
+    "duracao": 7
   },
   {
     "id": "MGsalg2f9js",
@@ -63,7 +68,8 @@
     "imagem_url": "https://i.ytimg.com/vi/MGsalg2f9js/hqdefault.jpg",
     "categorias": ["negócios"],
     "pais": "BR",
-    "embed_url": "https://www.youtube.com/embed/MGsalg2f9js"
+    "embed_url": "https://www.youtube.com/embed/MGsalg2f9js",
+    "duracao": 36
   },
   {
     "id": "0lJKucu6HJc",
@@ -74,7 +80,8 @@
     "imagem_url": "https://i.ytimg.com/vi/0lJKucu6HJc/hqdefault.jpg",
     "categorias": ["negócios"],
     "pais": "BR",
-    "embed_url": "https://www.youtube.com/embed/0lJKucu6HJc"
+    "embed_url": "https://www.youtube.com/embed/0lJKucu6HJc",
+    "duracao": 16
   },
   {
     "id": "IPMJKBOo_vg",
@@ -85,7 +92,8 @@
     "imagem_url": "https://i.ytimg.com/vi/IPMJKBOo_vg/hqdefault.jpg",
     "categorias": ["negócios"],
     "pais": "BR",
-    "embed_url": "https://www.youtube.com/embed/IPMJKBOo_vg"
+    "embed_url": "https://www.youtube.com/embed/IPMJKBOo_vg",
+    "duracao": 3
   },
   {
     "id": "uiYHVUzMOfY",
@@ -96,7 +104,8 @@
     "imagem_url": "https://i.ytimg.com/vi/uiYHVUzMOfY/hqdefault.jpg",
     "categorias": ["negócios"],
     "pais": "BR",
-    "embed_url": "https://www.youtube.com/embed/uiYHVUzMOfY"
+    "embed_url": "https://www.youtube.com/embed/uiYHVUzMOfY",
+    "duracao": 32
   },
   {
     "id": "4jaWDfTbytA",
@@ -107,7 +116,8 @@
     "imagem_url": "https://i.ytimg.com/vi/4jaWDfTbytA/hqdefault.jpg",
     "categorias": ["negócios"],
     "pais": "BR",
-    "embed_url": "https://www.youtube.com/embed/4jaWDfTbytA"
+    "embed_url": "https://www.youtube.com/embed/4jaWDfTbytA",
+    "duracao": 8
   },
   {
     "id": "P51GTC8gvRw",
@@ -118,7 +128,8 @@
     "imagem_url": "https://i.ytimg.com/vi/P51GTC8gvRw/hqdefault.jpg",
     "categorias": ["negócios"],
     "pais": "BR",
-    "embed_url": "https://www.youtube.com/embed/P51GTC8gvRw"
+    "embed_url": "https://www.youtube.com/embed/P51GTC8gvRw",
+    "duracao": 31
   },
   {
     "id": "iuNJLtj10Lg",
@@ -129,7 +140,8 @@
     "imagem_url": "https://i.ytimg.com/vi/iuNJLtj10Lg/hqdefault.jpg",
     "categorias": ["negócios"],
     "pais": "BR",
-    "embed_url": "https://www.youtube.com/embed/iuNJLtj10Lg"
+    "embed_url": "https://www.youtube.com/embed/iuNJLtj10Lg",
+    "duracao": 10
   },
   {
     "id": "UF8uR6Z6KLc",
@@ -140,7 +152,8 @@
     "imagem_url": "https://i.ytimg.com/vi/UF8uR6Z6KLc/hqdefault.jpg",
     "categorias": ["negócios"],
     "pais": "BR",
-    "embed_url": "https://www.youtube.com/embed/UF8uR6Z6KLc"
+    "embed_url": "https://www.youtube.com/embed/UF8uR6Z6KLc",
+    "duracao": 15
   },
   {
     "id": "rDqQcmVqAm4",
@@ -151,6 +164,7 @@
     "imagem_url": "https://i.ytimg.com/vi/rDqQcmVqAm4/hqdefault.jpg",
     "categorias": ["negócios"],
     "pais": "BR",
-    "embed_url": "https://www.youtube.com/embed/rDqQcmVqAm4"
+    "embed_url": "https://www.youtube.com/embed/rDqQcmVqAm4",
+    "duracao": 72
   }
 ]
