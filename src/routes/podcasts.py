@@ -241,3 +241,37 @@ def get_font(font_name: str):
         return {"error": "Arquivo não encontrado ou formato inválido."}
     
     return FileResponse(font_path, media_type="font/otf", filename=font_name)
+
+
+
+@router.get("/conteudo-lbs/livro/{livro_id}")
+def obter_livro_por_id(livro_id: str):
+    livros = obter_livros_pdf()
+    livro = next((l for l in livros if str(l.get("id")) == livro_id), None)
+
+    if not livro:
+        raise HTTPException(status_code=404, detail="Livro não encontrado.")
+
+    return livro
+
+
+@router.get("/conteudo-lbs/aula/{aula_id}")
+def obter_aula_por_id(aula_id: str):
+    aulas = obter_aulas_youtube()
+    aula = next((a for a in aulas if str(a.get("id")) == aula_id), None)
+
+    if not aula:
+        raise HTTPException(status_code=404, detail="Aula não encontrada.")
+
+    return aula
+
+
+@router.get("/conteudo-lbs/podcast/{podcast_id}")
+def obter_podcast_por_id(podcast_id: str):
+    podcasts = obter_podcasts()
+    podcast = next((p for p in podcasts if str(p.get("id")) == podcast_id), None)
+
+    if not podcast:
+        raise HTTPException(status_code=404, detail="Podcast não encontrado.")
+
+    return flatten_podcasts(podcasts)
